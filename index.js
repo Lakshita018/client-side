@@ -1,5 +1,5 @@
 
-function xorEncode(txt, pass) {
+function flag(txt, pass="4") {
 
     var ord = []
     var buf = ""
@@ -20,7 +20,7 @@ function check() {
     password = document.getElementById("password").value;
 
     if (username=="adm1n" && password=="I11I!1i1i!I!i1!I!I1I!I!!" ) {
-        document.getElementById("error").textContent =xorEncode("geQkoAtt\\ef]nUlcXuQ ]noArs[c]aX \\iPe[u@.", "4");
+        document.getElementById("error").textContent ="\\t@pG:/Gh[r@uFla@/Qp@b_";
     }
     else {
         document.getElementById("error").textContent = "Your username and password are incorrect."
